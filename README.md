@@ -12,4 +12,6 @@ The overall goal of this project is to demonstrate a complete solution for road 
 
 -**VHDL Implementation**(/vhdl_implementation): This section includes the VHDL code for FPGA implementation.
 
--**Testing & Validation**(/testing_and_validation): Explore this directory for information on testing the VHDL model on an FPGA platform.
+-**Testing & Validation**(/tests): Explore this directory for information on testing the VHDL model on an FPGA platform.
+
+![eef9ffadc976adb446d568e91ed02d7e_XL](https://github.com/Marouarad/esp32-DHT-data-monitoring-on-Android-app/assets/114839150/d8a6787a-43ee-4fe4-800f-d7dafadf9a1a)
