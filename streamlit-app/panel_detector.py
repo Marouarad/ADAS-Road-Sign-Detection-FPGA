@@ -29,7 +29,7 @@ if uploaded_image is not None:
         inverted_mask = cv2.bitwise_not(blue_mask)
 
        
-        output_folder = "Masks"
+        output_folder = "streamlit-app/Masks"
         os.makedirs(output_folder, exist_ok=True)
         mask_output_path = os.path.join(output_folder, "blue_mask.jpg")
         cv2.imwrite(mask_output_path, inverted_mask)
