@@ -7,6 +7,9 @@ The overall goal of this project is to demonstrate a complete solution for road 
 ## This project is into 4 several key sections, each serving a specific purpose:
 
 -**Streamlit Application**(/streamlit_app): This directory contains the Streamlit-based user interface.
+
 -**Detection Model**(/detection_model): Here, you'll find the machine learning-based detection model.
+
 -**VHDL Implementation**(/vhdl_implementation): This section includes the VHDL code for FPGA implementation.
+
 -**Testing & Validation**(/testing_and_validation): Explore this directory for information on testing the VHDL model on an FPGA platform.
