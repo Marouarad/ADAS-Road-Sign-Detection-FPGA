@@ -46,7 +46,7 @@ if uploaded_image is not None:
 
         result_image = cv2.addWeighted(color_result, 1, gray_result, 1, 0)
 
-        st.image(inverted_mask, caption="Mask (Black and White with Blue in Bright)", use_column_width=True)
-        st.image(result_image, caption="Mask (White for Blue, Grayscale for Others)", use_column_width=True)
+        st.image(inverted_mask, caption="Mask (Black and White with Blue in Bright) ", use_column_width=True)
+        st.image(result_image, caption="Mask (White for Blue, Grayscale for Others) ", use_column_width=True)
 
         st.success("Successful")
